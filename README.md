@@ -5,8 +5,8 @@ API для определения категорий и подкатегорий
 ## Установка
 
 1. Установите зависимости:
-```bash
-pip install -r requirements.txt
+bash
+```pip install -r requirements.txt
 
 Настройте базу данных PostgreSQL и измените app.config['DATABASE_URI'] в api.py.
 
@@ -16,10 +16,9 @@ pytorch_model.bin - модель классификации текста
 
 yolov8n.pt - модель YOLOv8 для обнаружения объектов
 
-Использование
+# Использование
 Получите токен:
 
-```bash
 curl -X GET http://localhost:5000/get_token
 Отправьте запрос на классификацию:
 
